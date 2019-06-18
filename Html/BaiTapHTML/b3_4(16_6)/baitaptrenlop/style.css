@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #ffbf92;
+    text-align: center;
+}
+/*header p{*/
+    /*margin-bottom: -16px;*/
+/*}*/
+#menu ul{
+    background: #3ad3ff;
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+}
+
+#menu li {
+    color: #f1f1f1;
+    float: left;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+}
+.ac{
+    background-color: #A06D21;
+}
+#menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+#menu a:hover {
+    background: #f12d9e;
+    color: #333;
+}
+
+ /*phần main*/
+
+section{
+    margin: 32px 10px ;
+}
+
+/*heesy phần main*/
+.abc{
+    width: 33%;
+    float: left;
+}
+/*phần footer*/
+
+footer{
+    margin-top: 2em;
+    height: 32px;
+    clear: both;
+    background: black;
+    color: white;
+    text-align: center;
+}
+/*phần footer*/

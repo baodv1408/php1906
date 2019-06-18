@@ -1,0 +1,43 @@
+.khsan{
+    width: 700px;
+    height: 300px;
+    border: 2px solid black;
+}
+.Ks{
+    float: left;
+    margin-left: 25px;
+    margin-top: 50px;
+    position: relative;
+    width: 200px;
+    border: 1px solid green;
+}
+.T {
+    background: #00CCFF;
+    width: 55px;
+    position: absolute;
+    left: 160px;
+    top: 70px;
+}
+#id1:before{
+    content: " thêm trước ";
+}
+#id1:after{
+    content: "thêm sau ";
+}
+.float1{
+    border: 1px solid red;
+
+}
+.float1 p{
+    float: left;
+}
+p.fnone{
+    float: none;
+}
+.float3 img{float: left;
+    padding-right: 10px;
+}
+.float2 img{
+    float: right;
+    padding-left: 10px;
+}
