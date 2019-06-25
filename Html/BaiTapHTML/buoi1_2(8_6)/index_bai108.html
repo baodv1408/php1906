@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tạo bảng</title>
+    <style>
+        body{
+            background: #FFEDCA;
+        }
+        .righ_content{
+            float: left;
+        }
+
+        .main{
+
+            text-align: center;
+            margin: 5px auto;
+        }
+        .main h2{
+            font-size: 32px;
+            color: #CC6600;
+        }
+        table{
+            text-align: left;
+            width: 500px;
+            margin: auto;
+            /*padding: 5px;*/
+        }
+
+        table , th,td {
+            border: 1px solid black;
+            border-collapse: collapse;
+
+        }
+        th{
+            color: white;
+        }
+       .stt{
+           text-align: center;
+       }
+        .ten_mon_an{
+            text-align: left;
+        }
+        table tr:nth-child(even) {
+            background-color: #FFFFFF;
+        }
+        table tr:nth-child(odd) {
+            background-color: #FFEDCA;
+        }
+        table th {
+            background-color: #CC6600;
+            color: white;}
+
+
+    </style>
+</head>
+<body>
+
+<div class="righ_content">
+    <img src="img/canh_ca.jpg" />
+
+</div>
+<div class="main">
+    <h2>Các món ngon hà nội</h2>
+    <table>
+        <tr>
+            <th class="stt">STT</th>
+            <th class="stt" >Tên món ăn</th>
+        </tr>
+        <tr>
+            <td class="stt">1</td>
+            <td class="ten_mon_an">Bánh cuốn Thanh Trì</td>
+        </tr>
+        <tr>
+            <td class="stt">2</td>
+            <td class="ten_mon_an">Xôi Hà Nội </td>
+        </tr>
+        <tr>
+            <td class="stt">3</td>
+            <td class="ten_mon_an">Chả Cá Lã Vọng</td>
+        </tr>
+        <tr>
+            <td class="stt">4</td>
+            <td class="ten_mon_an">Cháo Cóc</td>
+        </tr>
+        <tr>
+            <td class="stt">5</td>
+            <td class="ten_mon_an">Bánh Gai Ninh Giang</td>
+        </tr>
+        <tr>
+            <td class="stt">6</td>
+            <td class="ten_mon_an">Bún Thang Hà Nội</td>
+        </tr>
+        <tr>
+            <td class="stt">7</td>
+            <td class="ten_mon_an">Canh Lằng</td>
+        </tr>
+        <tr>
+            <td class="stt">8</td>
+            <td class="ten_mon_an">Vịt Quay Lặng Sợn</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
